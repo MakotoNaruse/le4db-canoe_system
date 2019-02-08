@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+  <servlet>
+    <servlet-name>List</servlet-name>
+    <servlet-class>ListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>AddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Item</servlet-name>
+    <servlet-class>ItemServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>SimpleList</servlet-name>
+      <servlet-class>SimpleListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>RegUniv</servlet-name>
+      <servlet-class>RegUnivServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>RegChange</servlet-name>
+      <servlet-class>RegChangeServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>RegUpdate</servlet-name>
+      <servlet-class>RegUpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>TopPage</servlet-name>
+      <servlet-class>TopPageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>Result</servlet-name>
+      <servlet-class>ResultServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>ResultSearch</servlet-name>
+      <servlet-class>ResultSearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>Entry</servlet-name>
+      <servlet-class>EntryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>EntryAdd</servlet-name>
+      <servlet-class>EntryAddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>EntryDelete</servlet-name>
+      <servlet-class>EntryDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>EntryInit</servlet-name>
+      <servlet-class>EntryInitServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>EntryAll</servlet-name>
+      <servlet-class>EntryAllServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>Pair</servlet-name>
+      <servlet-class>PairServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>PairAdd</servlet-name>
+      <servlet-class>PairAddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>PairDelete</servlet-name>
+      <servlet-class>PairDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>Comfirm</servlet-name>
+      <servlet-class>ComfirmServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>Operation</servlet-name>
+      <servlet-class>OperationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRead</servlet-name>
+      <servlet-class>OpReadServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpReadAdd</servlet-name>
+      <servlet-class>OpReadAddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpReadDelete</servlet-name>
+      <servlet-class>OpReadDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpBibs</servlet-name>
+      <servlet-class>OpBibsServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpBibsSort</servlet-name>
+      <servlet-class>OpBibsSortServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRace</servlet-name>
+      <servlet-class>OpRaceServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpEntry</servlet-name>
+      <servlet-class>OpEntryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRaceMake</servlet-name>
+      <servlet-class>OpRaceMakeServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRaceAll</servlet-name>
+      <servlet-class>OpRaceAllServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRaceAdd</servlet-name>
+      <servlet-class>OpRaceAddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRaceDelete</servlet-name>
+      <servlet-class>OpRaceDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRaceChange</servlet-name>
+      <servlet-class>OpRaceChangeServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpCombi</servlet-name>
+      <servlet-class>OpCombiServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpCombiDo</servlet-name>
+      <servlet-class>OpCombiDoServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRank</servlet-name>
+      <servlet-class>OpRankServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpRankAdd</servlet-name>
+      <servlet-class>OpRankAddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpTime</servlet-name>
+      <servlet-class>OpTimeServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>OpTimeAdd</servlet-name>
+      <servlet-class>OpTimeAddServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>List</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Result</servlet-name>
+    <url-pattern>/result</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ResultSearch</servlet-name>
+    <url-pattern>/resultsearch</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Item</servlet-name>
+    <url-pattern>/item</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>SimpleList</servlet-name>
+      <url-pattern>/slist</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>RegUniv</servlet-name>
+      <url-pattern>/reguniv</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>RegChange</servlet-name>
+      <url-pattern>/regchange</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>RegUpdate</servlet-name>
+      <url-pattern>/regupdate</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>TopPage</servlet-name>
+      <url-pattern>/toppage</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>Entry</servlet-name>
+      <url-pattern>/entry</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>EntryAdd</servlet-name>
+      <url-pattern>/entryadd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>EntryDelete</servlet-name>
+      <url-pattern>/entrydelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>EntryInit</servlet-name>
+      <url-pattern>/entryinit</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>EntryAll</servlet-name>
+      <url-pattern>/entryall</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>Pair</servlet-name>
+      <url-pattern>/pair</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>PairAdd</servlet-name>
+      <url-pattern>/pairadd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>PairDelete</servlet-name>
+      <url-pattern>/pairdelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>Comfirm</servlet-name>
+      <url-pattern>/comfirm</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>Operation</servlet-name>
+      <url-pattern>/operation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRead</servlet-name>
+      <url-pattern>/opread</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpReadAdd</servlet-name>
+      <url-pattern>/opreadadd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpReadDelete</servlet-name>
+      <url-pattern>/opreaddelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpBibs</servlet-name>
+      <url-pattern>/opbibs</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpBibsSort</servlet-name>
+      <url-pattern>/opbibssort</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRace</servlet-name>
+      <url-pattern>/oprace</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpEntry</servlet-name>
+      <url-pattern>/opentry</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRaceMake</servlet-name>
+      <url-pattern>/opracemake</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRaceAll</servlet-name>
+      <url-pattern>/opraceall</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpCombi</servlet-name>
+      <url-pattern>/opcombi</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpCombiDo</servlet-name>
+      <url-pattern>/opcombido</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRaceAdd</servlet-name>
+      <url-pattern>/opraceadd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRaceDelete</servlet-name>
+      <url-pattern>/opracedelete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRaceChange</servlet-name>
+      <url-pattern>/opracechange</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRank</servlet-name>
+      <url-pattern>/oprank</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpRankAdd</servlet-name>
+      <url-pattern>/oprankadd</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpTime</servlet-name>
+      <url-pattern>/optime</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>OpTimeAdd</servlet-name>
+      <url-pattern>/optimeadd</url-pattern>
+  </servlet-mapping>
+
+</web-app>

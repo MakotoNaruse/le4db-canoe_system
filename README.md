@@ -10,6 +10,9 @@
 ```javac -d WEB-INF/classes -cp servlet-api-3.1.jar:WEB-INF/lib/*.jar WEB-INF/src/*.java```
 
 で再コンパイルを行い
+
 ```java -cp .:servlet-api-3.1.jar:jetty-all-9.4.9.v20180320-uber.jar StartJetty```
+
 によってシステムを起動する. 
+
 ブラウザを立ち上げhttp://localhost:8080/ にアクセスすることで利用することができる.
